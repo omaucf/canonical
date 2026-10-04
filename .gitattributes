@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+*.{css} diff=css
+*.{cjs,js,jsx,mjs,ts,tsx} diff=js
+*.{json,jsonc} diff=json
+*.{md,mdc} diff=markdown
+
+*.{jpg,jpeg,png,webp} filter=lfs diff=lfs merge=lfs -text
+*.{mp3,wav,ogg,ogx,ogv} filter=lfs diff=lfs merge=lfs -text
+*.{ttf,otf,woff,woff2} filter=lfs diff=lfs merge=lfs -text
